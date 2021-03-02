@@ -1,0 +1,51 @@
+@import "./styles/scrollbar.css";
+@import "./styles/users-card.css";
+@import "./styles/chart.css";
+@import "./styles/loginpage.css";
+
+html {
+  height: 100%;
+  padding: 1rem 0;
+  overflow-y: scroll;
+}
+body {
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 991px) {
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+  }
+}
+
+.round-corners {
+  border: 1px solid rgb(145, 143, 143);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+input,
+select:focus,
+select:active {
+  outline: none;
+  border: none;
+  box-shadow: none !important;
+}
+
+svg {
+  cursor: pointer;
+}
+svg:hover {
+  color: rgb(240, 86, 86);
+  transform: scale(0.93);
+}

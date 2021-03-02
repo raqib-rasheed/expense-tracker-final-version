@@ -1,0 +1,16 @@
+canvas {
+  padding: 1rem !important;
+  height: 80% !important;
+}
+
+.chart-container {
+  width: 100%;
+  height: 22rem;
+}
+.chart-container.income {
+  background: rgba(225, 240, 227, 0.541);
+}
+
+.chart-container.expense {
+  background: rgba(250, 210, 210, 0.466);
+}

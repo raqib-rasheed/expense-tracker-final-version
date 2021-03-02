@@ -1,0 +1,9 @@
+.loginpage-container {
+  padding: 0 !important;
+  height: 90vh;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+}
